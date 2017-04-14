@@ -1,7 +1,7 @@
 {
   "name": "manage-system",
   "version": "1.0.0",
-  "description": "基于Vue.js 2.x系列 + element-ui 内容管理系统解决方案",
+  "description": "Vue.js 2.x系列 + element 构建后台应用",
   "author": "lin-xin <2981207131@qq.com>",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "axios": "^0.15.3",
     "babel-polyfill": "^6.23.0",
     "element-ui": "^1.2.2",
+    "moment": "^2.18.1",
     "vue": "^2.1.10",
     "vue-core-image-upload": "^2.0.5",
     "vue-datasource": "^1.0.4",

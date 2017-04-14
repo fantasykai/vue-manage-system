@@ -221,7 +221,7 @@ Vue.js的Markdown Editor组件。访问地址：[Vue-SimpleMDE](https://github.c
         <IEcharts :option="bar"></IEcharts>
     </div>
 </template>
-	
+
 <script>
     import IEcharts from 'vue-echarts-v3';					// 导入IEcharts组件
     export default {
@@ -231,7 +231,7 @@ Vue.js的Markdown Editor组件。访问地址：[Vue-SimpleMDE](https://github.c
 			        title: {
 			          text: '柱状图'							// 图标标题文本
 			        },
-			        tooltip: {},	
+			        tooltip: {},
 			        xAxis: {								// 横坐标
 			          data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
 			        },
@@ -268,13 +268,13 @@ Vue.js的Markdown Editor组件。访问地址：[Vue-SimpleMDE](https://github.c
 第二步：删除引入该组件的文件。在目录 src/components/page/ 删除 VueTable.vue 文件。
 
 第三步：删除该页面的入口。在目录 src/components/common/Sidebar.vue 中，找到该入口，删除下面这段代码。
-	
+
 ```HTML
 <el-menu-item index="vuetable">Vue表格组件</el-menu-item>
 ```
 
 第四步：卸载该组件。执行以下命令：
-	
+
 	npm un vue-datasource -S
 
 完成。
@@ -301,8 +301,11 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 ## 项目截图 ##
 ### 默认皮肤 ###
 
+
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms1.png)
 
 ### 浅绿色皮肤 ###
 
 ![Image text](https://github.com/lin-xin/manage-system/raw/master/screenshots/wms2.png)
+
+### 导入admin LTE

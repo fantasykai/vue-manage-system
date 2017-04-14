@@ -23,16 +23,16 @@ module.exports = {
     },
     dev: {
         env: require('./dev.env'),
-        port: 8080,
+        port: 8083,
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {
-            '/api':{
-                target:'http://jsonplaceholder.typicode.com',
-                changeOrigin:true,
-                pathRewrite:{
-                    '/api':''
+            '/charts/aggregate': {
+                target: 'https://*/charts/aggregate',
+                changeOrigin: true,
+                pathRewrite: {
+                    '/charts/aggregate': ''
                 }
             }
         },
